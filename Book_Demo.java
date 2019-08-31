@@ -32,10 +32,10 @@ class Book_Demo
  public static void main(String args[])
  {
   int i,n;
-  Scanner s=new Scanner(System.in); 
+  Scanner s1=new Scanner(System.in); 
   Book b1=new Book();
   System.out.println("enter the no. of books");
-  n=s.nextInt();
+  n=s1.nextInt();
   for(i=1;i<=n;i++)
   {
    b1.set_details();
